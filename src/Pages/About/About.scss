@@ -1,0 +1,71 @@
+.about{
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-image: url(https://terra-rentacar.uz/assets/mm34-DCy6GvLS.png);
+    background-position: center;
+    height: 100%;
+    // width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 7px 10px 0px 500px rgba(0,0,0,0.75) inset;
+    padding: 30px 30px;
+    &__wel{
+        font-size: 30px;
+    }
+    &__h1{
+        font-weight: 900;
+    }
+    &__cont{
+       max-width: 1200px;
+       margin-top: 50px;
+
+    }
+    &__dubai{
+        font-size: 20px;
+        color: gray;
+    }
+    &__p{
+        color: grey;
+    }
+    &__us{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    &__why{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    &__h3{
+        color:lightgrey;
+    }
+    &__our{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__free{
+        color: white;
+        font-size: 22px;
+    }
+    &__car{
+        font-size: 20px;
+    }
+    &__con{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
